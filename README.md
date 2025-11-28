@@ -32,6 +32,23 @@
 - 📝 文本嵌入 - 自动在表情图片上添加文本
 - 🎯 随机算法 - 智能避免重复表情
 
+## 分支指引
+由于本项目正在蒸蒸日上（喜，有很多老师都为本项目提交了自己的贡献，但全都挤进main分支有点百家争鸣了（悲
+
+因此本项目当前使用分支管理各位老师独具匠心的思路，下面提供各分支的预览与指北，可以根据自己的喜好选择合适的分支：
+
+1. **主分支** 👈您在这里
+
+2. **tkinter GUI** (现在还没合并但未来可期)
+   - 简单易用的用户界面，同时带有预览。适合大多数用户。
+   - 目前有三位老师正在爆肝，请见PR [#32](https://github.com/oplivilqo/manosaba_text_box/pull/32), [#23](https://github.com/oplivilqo/manosaba_text_box/pull/23), [#41](https://github.com/oplivilqo/manosaba_text_box/pull/41)
+3. **[textual TUI](https://github.com/oplivilqo/manosaba_text_box/tree/refresh)**: `refresh`分支(比较新) 或 _`main`分支(当前分支)_
+   - 直接在运行终端展示的用户界面，适合少数喜欢终端UI的用户。但暂时无法实现图片预览。
+   ![TUI界面截图](https://github.com/user-attachments/assets/5d1219c4-582f-4573-a605-065d6abc5337)
+4. **[JavaScript WebUI](https://github.com/oplivilqo/manosaba_text_box/tree/lite)**: `lite`分支
+   - 无需Python环境，使用浏览器实现的版本。适合偶尔生成图片的用户。
+   ![JS版界面截图](https://github.com/user-attachments/assets/38d0e142-8707-4f43-b1a8-1bb0bcdbe848)
+
 ## 使用方法
 
 ### 核心功能
@@ -41,20 +58,13 @@
 3. 生成图片 - 按下 `Ctrl+E` 键自动生成并发送
 4. 清理缓存 - 一键清理生成的临时图片
 
-<img width="1203" height="756" alt="image" src="https://github.com/user-attachments/assets/edc38524-f2fd-4c18-8a8d-59f0a0a839bb" />
-
-> ^^^ 提示：底部的按钮可以按 XD
-
-<img width="1203" height="756" alt="image" src="https://github.com/user-attachments/assets/5d1219c4-582f-4573-a605-065d6abc5337" />
-
-> ^^^ 还有进度条！不用干等了 www
-
 ### 使用提醒
 
 由于制作时采取了合成图片的思路，第一次切换角色后需要等待读条，无法立即使用
 
+
+
 ### 添加自定义角色
-***
 #### 第1步
 请下载需要的角色图片，放置于`<根目录>/assets/chara/<角色名>`文件夹中，
 并统一命名格式为`<角色名> (<差分编号>)`，如图：
@@ -116,6 +126,7 @@ warden:
 <div align="right">
   
 ### 以上. 柊回文————2025.11.15
+
 
 
 
